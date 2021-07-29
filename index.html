@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/background.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/store.js" async></script>
+    <title>E-Commerce Website</title>   
+    </div>
+
+</head>
+
+<body>
+    
+    <nav class="pic"></nav>
+        <div class="nav">
+            <h1>Welcome to our Thrift Shop!</h1>
+            <img id="bought" src="./images/cart.png" alt="" class="cart">
+        </div>
+    </nav>
+    <div id="cart" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1 class="cart-title-list">Your Cart!</h1>
+            <div class="cart-list" id="cart-list"></div>
+            <button class="btn black button-purchase" type="button">Purchase</button>
+            
+            </div>
+    </div>
+    <hr/>
+
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="./images/slide5.jpg" id="lastClone" alt="">
+            <img src="./images/Slide1.jpg" alt="">
+            <img src="./images/SLIDE2.jpg" alt="">
+            <img src="./images/Slide3.jpg" alt="">
+            <img src="./images/slide4.jpg" alt="">
+            <img src="./images/slide5.jpg" alt="">
+            <img src="./images/Slide1.jpg" id="firstClone" alt="">
+        </div>
+        <button id="prevBtn">Previous</button>
+        <button id="nxtBtn">Next</button>
+    </div>
+    <hr/>
+    <div id="products"></div>
+    <script src="./js/app.js"></script>
+    <script src="./js/products.js"></script>
+    
+</body>
+
+</html>
